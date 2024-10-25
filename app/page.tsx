@@ -4,7 +4,7 @@ import CategoryHighlights from '@/components/CategoryHighlights'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
       <Hero />
       <FeaturedProducts />
       <CategoryHighlights />
